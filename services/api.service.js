@@ -52,7 +52,7 @@ module.exports = {
 
 				aliases: {
 					"GET hello": "greeter.hello",
-					"POST welcome": "greeter.welcome"
+					"welcome": "greeter.welcome"
 				},
 
 				/**
@@ -124,7 +124,7 @@ module.exports = {
 
 				aliases: {
 					"GET hello": "greeter.hello2",
-					"POST welcome": "greeter.welcome"
+					"welcome": "greeter.welcome"
 				},
 
 				/**
