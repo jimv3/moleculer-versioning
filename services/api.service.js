@@ -1,7 +1,6 @@
 "use strict";
 
 const ApiGateway = require("moleculer-web");
-const psjon = require("../package.json")
 
 /**
  * @typedef {import('moleculer').ServiceSchema} ServiceSchema Moleculer's Service Schema
@@ -137,7 +136,8 @@ module.exports = {
 				 *
 				onBeforeCall(ctx, route, req, res) {
 					// Set request headers to context meta
-					ctx.meta.userAgent = req.headers["user-agent"];
+					//ctx.meta.userAgent = req.headers["user-agent"];
+					console.log(req)
 				}, */
 
 				/**
